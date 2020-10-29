@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="project.js">
+		<script type="text/javascript" src="wow.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+		<script>
+			new WOW().init();
+		</script>
+		<script >
+			$('document').ready(function(){
+			$('#hide').hide();
+			$('#para').hide();
+			$('#show').click(function(){
+				$('#para').show();
+				$('#show').hide();
+				$('#hide').show();
+			})
+			$('#hide').click(function(){
+				$('#para').hide();
+				$('#show').show();
+				$('#hide').hide();
+			})
+			$('#hide1').hide();
+			$('#para1').hide();
+			$('#show1').click(function(){
+				$('#para1').show();
+				$('#show1').hide();
+				$('#hide1').show();
+			})
+			$('#hide1').click(function(){
+				$('#para1').hide();
+				$('#show1').show();
+				$('#hide1').hide();
+			})
+			$('#hide2').hide();
+			$('#para2').hide();
+			$('#show2').click(function(){
+				$('#para2').show();
+				$('#show2').hide();
+				$('#hide2').show();
+			})
+			$('#hide2').click(function(){
+				$('#para2').hide();
+				$('#show2').show();
+				$('#hide2').hide();
+			})
+			$('#hide3').hide();
+			$('#para3').hide();
+			$('#show3').click(function(){
+				$('#para3').show();
+				$('#show3').hide();
+				$('#hide3').show();
+			})
+			$('#hide3').click(function(){
+				$('#para3').hide();
+				$('#show3').show();
+				$('#hide3').hide();
+			})
+			$('#hide4').hide();
+			$('#para4').hide();
+			$('#show4').click(function(){
+				$('#para4').show();
+				$('#show4').hide();
+				$('#hide4').show();
+			})
+			$('#hide4').click(function(){
+				$('#para4').hide();
+				$('#show4').show();
+				$('#hide4').hide();
+			})
+			$('#hide5').hide();
+			$('#para5').hide();
+			$('#show5').click(function(){
+				$('#para5').show();
+				$('#show5').hide();
+				$('#hide5').show();
+			})
+			$('#hide5').click(function(){
+				$('#para5').hide();
+				$('#show5').show();
+				$('#hide5').hide();
+			})
+		});
+			jQuery(document).ready(function ($) {
+    		 $('.counter').counterUp({
+         delay: 10,
+         time: 5000
+     })
+ });
+
+		</script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="animate.css">
+		<link rel="stylesheet" href="project.css">
+		<link rel="stylesheet" href="morehide.css">
+		<link rel="stylesheet" href="modal.css">
+		<link rel="stylesheet" href="signup.css">
+	<title>Document</title>
+</head>
+<body style="height: 30000px;">
+	    <button class="scroll-top scroll-to-target open" data-target="html">
+                <span class="fa fa-angle-up"></span>
+    </button>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark navbar-custom">
+		  <span class="second-logo">
+					<svg xmlns="http://www.w3.org/2000/svg" class="league svg-custom" width="30" height="32" viewBox="0 0 30 32" fill="none">
+						<g clip-path="url(#clip0)">
+							<path d="M1.80644 9.75049C0.655032 11.8373 0 14.2271 0 16.7683C0 19.3095 0.655032 21.7015 1.80644 23.7883V9.75049Z" fill="#C28F2C"></path>
+							 <path d="M15 2.02222C13.7829 2.02222 12.602 2.16921 11.4688 2.43647V4.75718C12.5907 4.44093 13.7738 4.26721 15 4.26721C22.0218 4.26721 27.7153 9.84627 27.7153 16.7305C27.7153 19.8307 26.5571 22.6659 24.6464 24.8463L24.2838 26.118L23.4814 28.9331C27.4184 26.2761 30.0023 21.8195 30.0023 16.7705C30 8.62355 23.2843 2.02222 15 2.02222Z" fill="#C28F2C"></path>
+							  <path d="M11.4688 24.4209H22.9737H23.2253C25.1723 22.4209 26.3713 19.7126 26.3713 16.7305C26.3713 10.5746 21.2806 5.58569 15 5.58569C13.767 5.58569 12.5816 5.78168 11.4688 6.1358V24.4209Z" fill="#C28F2C"></path>
+							   <path d="M10.1088 0H1.55029L3.16634 3.29844V28.7038L1.55029 32H21.1922L22.9737 25.7572H10.1088V0Z" fill="#C28F2C">
+							   	
+							   </path>
+							</g> <defs><clippath id="clip0"><rect width="30" height="32" fill="white"></rect></clippath></defs>
+						</svg>
+		 </span>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+		    <ul class="navbar-nav">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#game">Game</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Discover</a>
+		      </li>
+		      <li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          New
+		        </a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+		          <a class="dropdown-item" href="#">Game Update</a>
+		          <a class="dropdown-item" href="#">General Focus</a>
+		          <a class="dropdown-item" href="#">New Tournament</a>
+		          <a class="dropdown-item" href="#">New Champion</a>
+		        </div>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#champion">Champion</a>
+		      </li>
+		      <li class="nav-item dropdown">
+		         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Style Play
+		         </a>		
+		         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+		          <a class="dropdown-item" href="#">Pocket Guide</a>
+		          <a class="dropdown-item" href="#">ProBuild</a>
+		          <a class="dropdown-item" href="#">Reconmended</a>
+		          <a class="dropdown-item" href="#">LeeSin Montage</a>
+		          <a class="dropdown-item" href="#">Style Yasuo</a>
+		           <a class="dropdown-item" href="#">Localtion</a>
+		       	 </div>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Esport <i class="fa fa-external-link" aria-hidden="true"></i></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Support <i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+		      </li>
+		    </ul>
+
+		      <button type="button" class="btn btn-primary btn-signup" data-toggle="modal" data-target="#staticBackdrop">
+		      	SignUp
+		      </button>
+			<div class="modal fade modal-custom" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+			  <div class="modal-dialog modal-dialog-scrollable">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <h5 class="modal-title" id="staticBackdropLabel">SIGN UP</h5>
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          <span aria-hidden="true">&times;</span>
+			        </button>
+			      </div>
+			      <div class="modal-body modal-body-custom">
+			       <form name='registration' onSubmit="return formValidation();">
+						<ul>
+						<li><label for="userid"><h6>User:</h6></label></li>
+						<li><input type="text" name="userid" size="30" /></li>
+						<li><label for="passid"><h6>Password:</h6></label></li>
+						<li><input type="password" name="passid" size="30" /></li>
+						<li><label for="username"><h6>Name:</h6></label></li>
+						<li><input type="text" name="username" size="50" /></li>
+						<li><label for="address"><h6>Email Address:</h6></label></li>
+						<li><input type="text" name="address" size="50" /></li>
+						<li><label for="country"><h6>Country:</h6></label></li>
+						<li><select name="country">
+						<option selected="" value="Default">(Please select a country)</option>
+						<option value="AF">Australia</option>
+						<option value="AL">Canada</option>
+						<option value="DZ">India</option>
+						<option value="AS">Russia</option>
+						<option value="AD">USA</option>
+						<option value="VN">Vietnamese</option>
+						</select></li>
+						<li><label for="zip"><h6>ZIP Code:</h6></label></li>
+						<li><input type="text" name="zip" /></li>
+						<li><label for="email"><h6>Phone Number:</h6></label></li>
+						<li><input type="text" name="email" size="50" /></li>
+						<li><label id="gender"><h6>Sex:</h6></label></li>
+						<li><input type="radio" name="sex" value="Male" /><span>Male</span></li>
+						<li><input type="radio" name="sex" value="Female" /><span>Female</span></li>
+						<li><label><h6>Language:</h6></label></li>
+						<li><input type="radio" name="en" value="en" checked /><span>English</span></li>
+						<li><input type="radio" name="en" value="noen" /><span>Non English</span></li>
+						<li><label for="desc"><h6>About:</h6></label></li>
+						<li><textarea name="desc" id="desc"></textarea></li>
+						<li><input type="submit" name="submit" value="SignUp Now" /></li>
+						</ul>
+					</form>
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			        <button type="button" class="btn btn-primary">Understood</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		  </div>
+</nav>
+<header>
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		  <ol class="carousel-indicators">
+		    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		  </ol>
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		    	<div class="wow flipInY logo">
+					<img src="../images/logo.png" class="img-fluid" alt="Responsive image">
+				</div>
+		      <img src="../images/hinh2.jpg" class="d-block w-100" alt="...">
+		    </div>
+		    <div class="carousel-item">
+		    	<div class="wow flipInY logo">
+					<img src="../images/logo.png" class="img-fluid" alt="Responsive image">
+				</div>
+		      <img src="../images/hinh6.jpg" class="d-block w-100" alt="...">
+		    </div>
+		    <div class="carousel-item">
+		    	<div class="wow flipInY logo">
+					<img src="../images/logo.png" class="img-fluid" alt="Responsive image">
+				</div>
+		      <img src="../images/hinh3.jpg" class="d-block w-100" alt="...">
+		    </div>
+		  </div>
+		</div>
+	</header>
+	<div class="container">
+	 <div id="champion">
+	   <h1>
+		<strong>
+			<div>
+				<span>Champion</span>
+			</div>
+		</strong>
+	   </h1>
+		<p>Whether you like to dive straight into the fray, support your teammates, or something in between, there’s a spot for you on the Rift.</p>
+		<div class="spinner-border text-primary" role="status">
+  				<span class="sr-only">Loading...</span>
+			</div>
+	 </div>
+			
+<section class="page-section bg-light champion-custom" id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content">
+                                    	<i class="fa fa-plus" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                                <img class="img-fluid  wow bounceInLeft" src="../images/yasuo.png" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">FIGHTER</div>
+                                <div class="portfolio-caption-subheading text-muted">Yasuo-The Unforgiven</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content">
+                                    	<i class="fa fa-plus" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                                <img class="img-fluid  wow flipInY" src="../images/jinx.png" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">MARKSMAN</div>
+                                <div class="portfolio-caption-subheading text-muted">Jinx-The Loose Cannon</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content">
+                                    	<i class="fa fa-plus" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                                <img class="img-fluid  wow bounceInRight" src="../images/thresh.png" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">SUPPORT
+                                </div>
+                                <div class="portfolio-caption-subheading text-muted">Thresh-The Chain Warden</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content">
+                                    	<i class="fa fa-plus" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                                <img class="img-fluid  wow bounceInLeft" src="../images/lux.png" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">MAGES</div>
+                                <div class="portfolio-caption-subheading text-muted">Lux-The Lady of Luminosity</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content">
+                                    	<i class="fa fa-plus" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                                <img class="img-fluid  wow bounceInUp" src="../images/akali.png" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">ASSASSIN</div>
+                                <div class="portfolio-caption-subheading text-muted">Akali-The Rouge Assassin</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content">
+                                    	<i class="fa fa-plus" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                                <img class="img-fluidc wow bounceInRight" src="../images/leona.png" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">TANK</div>
+                                <div class="portfolio-caption-subheading text-muted">Leona-The Radiant Dawn</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Modal 1-->
+ 			<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content modal-content-custom">
+                    <div class="close-modal" data-dismiss="modal"><img src="../images/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">FIGHTER</h2>
+                                    <p class="item-intro text-muted">Yasuo-The Unforgiven.</p>
+                                    <img class="img-fluid d-block mx-auto" src="../images/yasuo.png" alt="" />
+                                     An Ionian of deep resolve, Yasuo is an agile swordsman who wields the air itself against his enemies. As a proud young man, he was falsely accused of murdering his master unable to prove his innocence, he was forced to slay his own brother in self defense. Even after his master's true killer was revealed, Yasuo still could not forgive himself for all he had done, and now wanders his homeland with only the wind to guide his blade.
+                                    <ul class="list-inline">
+                                        <li>Date: January 2020</li>
+                                        <li>Client: Threads</li>
+                                        <li>Category: Illustration</li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fa fa-times" aria-hidden="true"></i>
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!-- Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content modal-content-custom">
+                    <div class="close-modal" data-dismiss="modal"><img src="../images/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">MARKSMAN</h2>
+                                    <p class="item-intro text-muted">Jinx-The Loose Cannon.</p>
+                                    <img class="img-fluid d-block mx-auto" src="../images/jinx.png" alt="" />
+                                    A manic and impulsive criminal from Zaun, Jinx lives to wreak havoc without care for the consequences. With an arsenal of deadly weapons, she unleashes the loudest blasts and brightest explosions to leave a trail of mayhem and panic in her wake. Jinx despises boredom, and gleefully brings her own chaotic brand of pandemonium wherever she goes.
+                                    <ul class="list-inline">
+                                        <li>Date: January 2020</li>
+                                        <li>Client: Explore</li>
+                                        <li>Category: Graphic Design</li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                       <i class="fa fa-times" aria-hidden="true"></i>
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content modal-content-custom">
+                    <div class="close-modal" data-dismiss="modal"><img src="../images/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">SUPPORT</h2>
+                                    <p class="item-intro text-muted">Thresh-The Chain Warden.</p>
+                                    <img class="img-fluid d-block mx-auto" src="../images/thresh.png" alt="" />
+                                     Sadistic and cunning, Thresh is an ambitious and restless spirit of the Shadow Isles. Once the custodian of countless arcane secrets, he was undone by a power greater than life or death, and now sustains himself by tormenting and breaking others with slow, excruciating inventiveness. His victims suffer far beyond their brief mortal coil as Thresh wreaks agony upon their souls, imprisoning them in his unholy lantern to torture for all eternity.
+                                    <ul class="list-inline">
+                                        <li>Date: January 2020</li>
+                                        <li>Client: Finish</li>
+                                        <li>Category: Identity</li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fa fa-times" aria-hidden="true"></i>
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 4-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content modal-content-custom">
+                    <div class="close-modal" data-dismiss="modal"><img src="../images/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">MAGES</h2>
+                                    <p class="item-intro text-muted">Lux-The Lady of Lumninosity.</p>
+                                    <img class="img-fluid d-block mx-auto" src="../images/lux.png" alt="" />
+                                    Luxanna Crownguard hails from Demacia, an insular realm where magical abilities are viewed with fear and suspicion. Able to bend light to her will, she grew up dreading discovery and exile, and was forced to keep her power secret, in order to preserve her family's noble status. Nonetheless, Lux's optimism and resilience have led her to embrace her unique talents, and she now covertly wields them in service of her homeland.
+                                    <ul class="list-inline">
+                                        <li>Date: January 2020</li>
+                                        <li>Client: Lines</li>
+                                        <li>Category: Branding</li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fa fa-times" aria-hidden="true"></i>
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 5-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content modal-content-custom">
+                    <div class="close-modal" data-dismiss="modal"><img src="../images/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">ASSASSIN</h2>
+                                    <p class="item-intro text-muted">Akali-The Rouge Assassin.</p>
+                                    <img class="img-fluid d-block mx-auto" src="../images/akali.png" alt="" />
+                                     Abandoning the Kinkou Order and her title of the Fist of Shadow, Akali now strikes alone, ready to be the deadly weapon her people need. Though she holds onto all she learned from her master Shen, she has pledged to defend Ionia from its enemies, one kill at a time. Akali may strike in silence, but her message will be heard loud and clear: fear the assassin with no master.
+                                    <ul class="list-inline">
+                                        <li>Date: January 2020</li>
+                                        <li>Client: Southwest</li>
+                                        <li>Category: Website Design</li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fa fa-times" aria-hidden="true"></i>
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 6-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content modal-content-custom">
+                    <div class="close-modal" data-dismiss="modal"><img src="../images/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">TANK</h2>
+                                    <p class="item-intro text-muted">Leona-The Radiant Dawn.</p>
+                                    <img class="img-fluid d-block mx-auto" src="../images/leona.png" alt="" />
+                                    Imbued with the fire of the sun, Leona is a holy warrior of the Solari who defends Mount Targon with her Zenith Blade and the Shield of Daybreak. Her skin shimmers with starfire while her eyes burn with the power of the celestial Aspect within her Armored in gold and bearing a terrible burden of ancient knowledge, Leona brings enlightenment to some, death to others.
+                                    <ul class="list-inline">
+                                        <li>Date: January 2020</li>
+                                        <li>Client: Window</li>
+                                        <li>Category: Photography</li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fa fa-times" aria-hidden="true"></i>
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+	<div class="container">
+		<div id="game">
+	   <h1>
+		<strong>
+			<div>
+				<span>Game</span>
+			</div>
+		</strong>
+	   </h1>
+		<p>Immerse yourself in the entertaining but also tactical game on the Rift.</p>
+		<div class="spinner-border text-danger" role="status">
+  				<span class="sr-only">Loading...</span>
+			</div>
+	 </div>
+<section class="wow bounceInLeft map">
+		<div class="row">
+		   <div class="col-8 wow bounceInDown">
+			  <img src="../images/map.png" >
+		   </div>
+		 <div class="col-4">
+                 <div class="counter-content">
+                     <div class="counter-item">
+                         <h3>Champions<span class="counter text-primary">146</span></h3>
+                     </div>
+                    <div class="counter-item">
+                         <h3>Skins<span class="counter text-primary">1238</span></h3>
+                     </div>
+                    <div class="counter-item">
+                         <h3>Time<span class="counter text-primary">7230</span></h3>
+                     </div>
+                    <div class="counter-item">
+                         <h3>Tournaments<span class="counter text-primary">100</span></h3>
+                     </div>
+                 </div>
+             </div>
+
+		</div>
+</section>
+	</div>
+<!-- 	<div class="container">
+			<div class="col-4">
+					<svg viewBox="0 0 100 100" class="svg-custom3"> 
+						<path d="M59.84 7.78L50 17.63l-4.43-4.43-5.41-5.42a46.63 46.63 0 1019.68 0zm-12 12L50 22l2.2-2.19 4.67-4.67a38.86 38.86 0 11-13.74 0zM50 96.89a43.52 43.52 0 01-10.82-85.68l2.59 2.59a40.42 40.42 0 1016.46 0l2.59-2.59A43.52 43.52 0 0150 96.89z"></path>
+						<path d="M55.44 5.44L50 10.88l-5.44-5.44L50 0z">	
+						</path>
+
+					</svg>
+				</div>
+
+</div> -->
+<!--  <video  width="70%" height="350px" autoplay loop>
+        <source src="../images/kaisa.mp4">
+    </video>
+ -->
+	</body>
+</html>	

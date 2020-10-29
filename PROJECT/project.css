@@ -1,0 +1,109 @@
+.svg-custom {
+	margin-right: 50px;
+}
+.map{
+	background-image: url('../images/fullmap.jpg');
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 500px;
+}
+.navbar-custom{
+	position: fixed;
+	width: 100%;
+	z-index: 10000;
+}
+.logo {
+	width: 60%;
+	margin: 0 auto;
+}
+.logo img {
+	max-width: 100%;
+	height: auto;
+	position:absolute;
+	margin-top: 120px;
+	margin-left: 27px;
+	background-size: 100%;
+}
+
+.btn-signup {
+	position: absolute;
+	right: 30px;
+}
+.row div img{
+	max-width: 100%;
+
+}
+.row div {
+/*	border: 1px solid;*/
+}
+#champion{
+position: relative;
+z-index: 1;
+text-align: center;
+margin-top: 40px;
+}
+strong span {
+text-align: center;
+color: rgb(1, 1, 1);
+line-height: 0.85;
+font-family: serif;
+font-size: calc(61.82px + 3.03vw);
+font-style: italic;
+text-transform: uppercase;
+padding: 0px 15px 10px;
+margin-bottom: -10px;
+}
+#game {
+	position: relative;
+z-index: 1;
+text-align: center;
+margin-top: 40px;
+}
+ .about-section{
+     margin-top: 175px;
+      }
+.section-heading h2{
+     color: white;
+     margin-bottom: 20px;
+     font-size: 28px;
+     font-weight: 400;
+     text-transform: capitalize;
+     letter-spacing: 1px;
+ }
+.about-bg img{
+     width: 100%;
+     margin-left: -50px;
+     border-radius: 25px;
+     box-shadow: 0 1px 1px rgba(0,0,0,0.12),
+     0 2px 2px rgba(0,0,0,0.12),
+      0 4px 4px rgba(0,0,0,0.12),
+     0 8px 8px rgba(0,0,0,0.12),
+     0 16px 16px rgba(0,0,0,0.12);
+ }
+.about-content p{
+     margin-bottom: 30px;
+     color: #fff;
+ }
+.counter-content .counter-item:not(:last-of-type) {
+     margin-bottom: 25px;
+ }
+.counter-content h3{
+     font-size: 22px;
+     font-weight: 400;
+     display: block;
+     margin:0;
+     color: #fff;
+ }
+.counter-content span{
+     font-size: 48px;
+     font-weight: 400;
+     color:#fff;
+     display: block;
+     line-height: 60px;
+     margin-left: 40px;
+ }
+.counter-content {
+	margin-top: 35px;
+	margin-left: 20px;
+}

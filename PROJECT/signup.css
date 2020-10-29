@@ -1,0 +1,55 @@
+.modal-custom li {
+	list-style: none;
+}
+.modal-body-custom {
+	background-image: linear-gradient(120deg,#487eb0,#fbc531);
+}
+.scroll-top {
+    width: 55px;
+    height: 55px;
+    position: fixed;
+    bottom: 105%;
+    left: 30px;
+    font-size: 18px;
+    border-radius: 50%;
+    z-index: 99;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    background:#0067b2;
+    -webkit-animation: pulse 2s infinite;
+    -o-animation: pulse 2s infinite;
+    animation: pulse 2s infinite;
+    transition: 1s ease;
+}
+.scroll-top:hover{
+    background:#00aeef;
+}
+.scroll-top span:before {
+    font-size: 27px;
+}
+
+.scroll-top:after {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    top: 100%;
+    left: 5%;
+    height: 10px;
+    width: 90%;
+    opacity: 1;
+    background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 80%);
+    background: -webkit-radial-gradient(center ellipse, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 80%);
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 80%);
+}
+
+.scroll-top.open {
+    bottom: 30px;
+}
+
+button.scroll-top:focus {
+    outline: none;
+}
+button.scroll-top{ 
+    border: none;
+}
