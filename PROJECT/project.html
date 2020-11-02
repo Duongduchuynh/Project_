@@ -219,6 +219,9 @@
 		<p>Whether you like to dive straight into the fray, support your teammates, or something in between, there’s a spot for you on the Rift.</p>
 	 </div>
 	</div>
+
+
+
 			
 <section class="page-section bg-light champion-custom" id="portfolio">
             <div class="container">
@@ -323,6 +326,7 @@
                 </div>
             </div>
         </section>
+
         <!-- Modal 1-->
  			<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog modal-xl">
@@ -563,9 +567,9 @@
 		<p>If you are interested in talking with fellow players and Rioters in other community spaces.</p>	
 	 </div>
 </div>
-
+<div class="container">
 	<div class="row">
-		<div class="col-lg-6">
+		<div class="col-lg-7">
 			<div class="slider">
 			    <input type="radio" name="slide_switch" id="id1"/>
 			    <label for="id1">
@@ -599,7 +603,7 @@
 			    <img src="../images/Brand_7.jpg"class="slider-img-custom"/>
 			</div>
 		</div>
-<div class="col-lg-6">
+<div class="col-lg-5">
 	<div class="accordion">
     <div class="accordion-item">
       <div class="accordion-item-header">
@@ -679,7 +683,7 @@ accordionItemHeaders.forEach(accordionItemHeader => {
 </script>
 </div>
 	</div>
-
+</div>
 	<div class="container">
 		<div id="esport">
 	   <h1>
@@ -973,12 +977,19 @@ accordionItemHeaders.forEach(accordionItemHeader => {
 		 
 		  <div class="center">
 		    <input type="submit" id="submitbtn" name="submitbtn" tabindex="5" value="Send Message">
+		    <script src = " https://unpkg.com/sweetalert/dist/sweetalert.min.js ">
+		    	$(document).ready(function(){
+		    		$('#submitbtn').click(function(){
+		    			swal("Good job!", "You clicked the button!", "success");
+		    		})
+		    	})
+		    </script> 
 		  </div>
 		
 		</form>
 	</div>
-	<div class="col-6">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3711.349571134284!2d-118.46030061591918!3d34.0326700175104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bb147c58ab95%3A0xd27aa3a914d492b4!2sRiot%20Games%20Inc.!5e0!3m2!1svi!2s!4v1604197349219!5m2!1svi!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+	<div class="col-lg-6">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3711.349571134284!2d-118.46030061591918!3d34.0326700175104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bb147c58ab95%3A0xd27aa3a914d492b4!2sRiot%20Games%20Inc.!5e0!3m2!1svi!2s!4v1604197349219!5m2!1svi!2s" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="iframe-custom"></iframe>
 	</div>
 </div>
 
