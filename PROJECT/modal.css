@@ -180,7 +180,7 @@
     height: min-content;
   }
 
-  .modal-sm {
+.modal-sm {
     max-width: 300px;
   }
 }
@@ -223,13 +223,14 @@
 .portfolio-hover {
     display: flex;
     position: absolute;
-    width: 100%;
+    width: 95%;
     height: 100%;
     background: rgba(68 60 60 / 78%);
     align-items: center;
     justify-content: center;
     opacity: 0;
     transition: opacity ease-in-out 0.25s;
+    
 }
 .portfolio-hover-content i {
 	font-size: 85px;
@@ -252,3 +253,13 @@
 .modal-content-custom {
 	text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
