@@ -529,6 +529,10 @@ figure.snip1477.hover figcaption {
 
 
 
+
+/*Discover*/
+
+
 .timeline-panel{
     font-family: Verdana;
 }
@@ -1055,7 +1059,7 @@ form .txt:focus:valid, form .txtarea:focus:valid {
 
 /*Footer*/
 
-@import url(http://weloveiconfonts.com/api/?family=zocial);
+/*@import url(http://weloveiconfonts.com/api/?family=zocial);*/
 
 @font-face {
     font-family: 'zocial', sans-serif;
@@ -1376,6 +1380,8 @@ footer .bar-wrap {
     iframe {
         margin-left: 55px;
     }
+    .ul-sticker li {
+    margin: 0.8em;}
 }
 @media screen and (max-width: 575px)  {
     .logo img {
@@ -1434,10 +1440,17 @@ footer .bar-wrap {
             margin-top: -40px;
     }
     .slider {
-    width: 537px;
+        width: 507px;
+        padding-top: 265px;
     }
     .slider label {
     border: 2px solid #999;
+    }
+.slider label {
+    margin: 88px 0 0 -3.8px;
+}
+.iframe-custom {
+    width: 486px;
     }
 }
 @media screen and (max-width: 775px)  {
@@ -1528,27 +1541,7 @@ footer .bar-wrap {
     max-width: 960px;
   }
 }
-    @media (max-width: 1199px) {
-.logo img {
-    max-width: 64%;
-        margin-left: 19px;
-}
-.slider {
-    width: 561px;
-
-    }
-    .slider label {
-    margin: 88px 0 0 5px;
-}
-.ul-sticker li {
-    margin: 0.8em;
-}
-.iframe-custom {
-    width: 450px;
-    height: 550px;
-  }
-}
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .container {
     max-width: 1140px;
   }
